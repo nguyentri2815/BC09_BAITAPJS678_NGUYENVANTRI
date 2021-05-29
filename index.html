@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baif taapj js 6-7-8</title>
+</head>
+<body>
+    <h1>bài 1 : In một bảng số từ 1-100 </h1>
+    <button onclick="printNuber()"> click để xem kết quả</button>
+    <h2>kết quả bài 1 </h2>
+    <div class="result-bai1">
+        <p class="log-0"></p>
+        <p class="log-10"></p>
+        <p class="log-20"></p>
+        <p class="log-30"></p>
+        <p class="log-40"></p>
+        <p class="log-50"></p>
+        <p class="log-60"></p>
+        <p class="log-70"></p>
+        <p class="log-80"></p>
+        <p class="log-90"></p>
+    </div>
+    <hr>
+    <h1>bài 2 : in ra các số nguyên tố trong mảng </h1>
+    <input style="width:100%" type="text" name="" class="inputArr" value="1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29">
+    <button onclick="printPrime()"> click để xem kết quả</button>
+    <h2>kết quả bài 2 </h2>
+    <div class="result-bai2">
+    </div>
+    <hr>
+    <h1>bài 3 : tính S=(2+3+4...+n)+2n </h1>
+    <input style="width:100%" type="text" name="" class="numS" value="3">
+    <button onclick="calcS()"> click để xem kết quả</button>
+    <h2>kết quả bài 3 </h2>
+    <div class="result-bai3">
+    </div>
+    <hr>
+    <h1>bài 4 :  số lượng ước số của n </h1>
+    <input style="width:100%" type="text" name="" class="num4" value="8">
+    <button onclick="calcU()"> click để xem kết quả</button>
+    <h2>kết quả bài 4 </h2>
+    <div class="result-bai4">
+    </div>
+    <hr>
+    <h1>bài 5 :   tìm số đảo ngược của n </h1>
+    <input style="width:100%" type="text" name="" class="num5" value="1234">
+    <button onclick="reverce()"> click để xem kết quả</button>
+    <h2>kết quả bài 5 </h2>
+    <div class="result-bai5">
+    </div>
+    <hr>
+    <h1>bài 6 :   Tìm x nguyên dương lớn nhất, biết 1+2+3+...+x ≤100</h1>
+    <input style="width:100%" type="text" name="" class="num6" value="100">
+    <button onclick="findX()"> click để xem kết quả</button>
+    <h2>kết quả bài 6 </h2>
+    <div class="result-bai6">
+    </div>
+    <hr>
+    <h1>bài 7 :   nhận vào số n, in ra bảng cửu chương n</h1>
+    <input style="width:100%" type="text" name="" class="num7" value="3">
+    <button onclick="multiplication()"> click để xem kết quả</button>
+    <h2>kết quả bài 7 </h2>
+    <div class="result-bai7">
+        <p class="log7-0"></p>
+        <p class="log7-1"></p>
+        <p class="log7-2"></p>
+        <p class="log7-3"></p>
+        <p class="log7-4"></p>
+        <p class="log7-5"></p>
+        <p class="log7-6"></p>
+        <p class="log7-7"></p>
+        <p class="log7-8"></p>
+        <p class="log7-9"></p>
+        <p class="log7-10"></p>
+    </div>
+    <hr>
+    <h1>bài 8 :   .Viết hàm chia bài cho 4 người chơi</h1>
+    <input style="width:100%" type="text" name="" class="num8" placeholder='"4K", "KH", "5C", "KA", "QH", "KD", "2H", "10S","AS", "7H", "9K", "10D"'>
+    <button onclick="share()"> click để xem kết quả</button>
+    <h2>kết quả bài 8 </h2>
+    <div class="result-bai8">
+        <p class="log8-0"></p>
+        <p class="log8-1"></p>
+        <p class="log8-2"></p>
+        <p class="log8-3"></p>
+    </div>
+    <hr>
+    <h1>bài 9 :  "Tìm số gà, số chó khi  tổng số con là m và tổng số chân là n</h1>
+    <input style="width:100%" type="text" name="" class="num9-1" placeholder="nhập m : tổng só chó và ga" value="36">
+    <input style="width:100%" type="text" name="" class="num9-2" placeholder="nhập n : tổng số chân " value="100">
+    <button onclick="NumDogChicken()"> click để xem kết quả</button>
+    <h2>kết quả bài 9 </h2>
+    <div class="result-bai8">
+        <p> số con chó là :<span class="numdog"></span></p>
+        <p> số con gà là :<span class="numchicken"></span></p>
+    </div>
+    <hr>
+    <h1>bài 10 :  góc lệch giữa kim giờ và kim phút</h1>
+    <input style="width:100%" type="text" name="" class="gio" placeholder="nhập giờ" value="2">
+    <input style="width:100%" type="text" name="" class="phut" placeholder="nhập phút " value="20">
+    <p>vd : 2h20p => kq 50 độ</p>
+    <button onclick="calcGoc()"> click để xem kết quả</button>
+    <h2>kết quả bài 10 </h2>
+    <div class="result-bai10">
+    </div>
+    <hr>
+</body>
+<script src='js/index.js'></script>
+</html>
